@@ -1,17 +1,21 @@
 {
+  "version": "1.0.0",
   "name": "@alexandraklein/ui",
+  "description": "A simple template for a custom React component library",
+  "repository": {
+    "type": "git",
+    "url": "urlToYourRepository"
+  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/alexandraklein"
   },
-  "version": "0.1.0",
-  "description": "A simple template for a custom React component library",
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "author": "YOUR_NAME",
+  "author": "alexandraklein",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.0",
